@@ -25,7 +25,7 @@ const PostsTable = ({ limit, title }: PostsTableProps) => {
 
     return ( 
         <div className="mt-10">
-            <h3 className="text-4xl mb-8 font-extrabold text-red-600">
+            <h3 className="text-3xl mb-8 font-bold text-slate-600">
                 {title ? title : 'Latest Posts'}
             </h3>
             <Table>
